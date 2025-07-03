@@ -1,9 +1,0 @@
-resources:
-  - service.yaml
-  - statefulset.yaml
-
-images:
-  - name: redis
-    newTag: test
-
-namespace: <team-name>
