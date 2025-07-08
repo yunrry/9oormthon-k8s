@@ -1,0 +1,12 @@
+resources:
+  - frontend.yaml
+  - backend.yaml
+  - ingress.yaml
+
+configMapGenerator:
+  - name: react-frontend-config
+    files:
+      - config.json=config/frontend-config.json
+  - name: java-backend-config
+    files:
+      - config.json=config/backend-config.json
