@@ -6,7 +6,7 @@ metadata:
     nginx.ingress.kubernetes.io/rewrite-target: /
 spec:
   rules:
-  - host: team1.goorm.training
+  - host: team1.goorm.training # team1 부분 바꿔도 됨
     http:
       paths:
       - path: /
